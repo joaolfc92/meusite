@@ -1,0 +1,276 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+.topo{
+	background-color: black;
+
+}
+
+.topoint{
+	width: 100%;
+	max-width: 1040px;
+	display: flex;
+	margin: auto;
+	
+	
+}
+
+.logo{
+	flex: 1;
+
+}
+
+.menu{
+	flex: 1;
+
+
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+	margin-top: 30px;
+	
+
+}
+
+nav li{
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: mv boli;
+
+
+
+
+
+}
+
+nav ul a,
+nav li a {
+	text-decoration: none;
+	color: white;
+	margin:0;
+	padding: 0;
+	display: block;
+
+}
+
+nav li a:hover{
+	color: #64e0db;
+
+}
+
+.banner{
+	background-image: url('../images/banner_fundo.png');
+	background-position: center;
+	background-size: cover;
+	height: 340px;
+	display: flex;
+	justify-content: center;
+}
+
+.banner_int{
+	width: 100%;
+	max-width: 1040px;
+	display: flex;
+	margin: auto;
+	height: 340px;
+	
+	
+}	
+
+.vazio{
+	flex: 1;
+}
+
+.text{
+	flex: 1;
+    margin-top: 100px;
+
+
+}
+
+.nome,
+.desc{
+	font-family: mv boli;
+	color: white;
+}
+
+.nome{
+	font-size: 30px;
+	
+	margin-left: 45px;
+	padding-left:20px; 
+
+
+
+}
+
+.desc{
+	font-size: 21px;
+	margin-top: 10px;
+	margin-left: 70px;
+
+}
+
+.meio{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.meio_int{
+
+	width: 100%;
+	max-width: 1040px;
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+
+	
+	
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10,
+.img11,
+.img12{
+
+	width: 200px;
+	height: 200px;
+	background-color: 
+	margin:10px;
+	padding: 10px;
+	font-size: 18px;
+
+}
+
+
+.rodape{
+	background-color: black;
+	height: 120px;
+	margin-top: 10px;
+}
+
+.rodape_int{
+	width: 100%;
+	max-width: 1040px;
+	
+	margin: auto;
+}
+
+.meio_meio{
+	 display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    align-items: center;
+
+}
+
+.logo_1{
+	flex: 2;
+}	
+
+.direitos{
+	flex: 1;
+	color: white;
+
+
+}
+
+
+
+
+.menuMobile{
+	display: none;
+	height: 40px;
+	width: 40px;
+	
+	margin-top: 18px;
+	margin-left: 100px;
+
+}
+
+.mm_line{
+	height: 3px;
+	background-color: #64e0db
+}
+
+
+@media only screen and (min-width: 952px) and (max-width:1057px){
+	.topoint,
+	.banner_int,
+	.meio_int,
+	.rodape_int{
+		max-width: 890px;
+
+	}
+
+}
+
+@media only screen and (min-width:768px) and (max-width:952px){
+	.topoint,
+	.banner_int,
+	.meio_int,
+	.rodape_int{
+		max-width:768px;
+
+	}
+}	
+
+
+@media only screen and (max-width:767px){
+
+	.topoint,
+	.banner_int,
+	.meio_int,
+	.rodape_int{
+		max-width: 320px;
+
+	}
+
+	nav ul {
+		flex-direction: column;
+		display: none;
+		position: absolute;
+   		 width: 110px;
+   		background-color: #64e0db;
+   		padding-top: 10px;
+   } 
+
+	
+
+	
+
+	.menuMobile{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+
+		.desc {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 80px;
+	
+}
+
+
+
+
