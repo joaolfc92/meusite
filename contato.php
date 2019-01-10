@@ -173,6 +173,23 @@
 
 				</div>
 
+				<div class="git">
+						<div class="git_1">
+							<img src="Assets/images/github-mark.png" height="40" width="70">
+						</div>
+
+					<div class="numer5">
+					
+					
+					<a href="https://github.com/joaolfc92"> Minha Página no GitHub</div></a>
+
+
+
+
+				</div>
+
+				
+
 				
 
 
